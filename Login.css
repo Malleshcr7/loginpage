@@ -1,0 +1,101 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f8b500, #fceabb);
+}
+
+.login-form {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-width: 100%;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 1rem;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #f8b500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e7a400;
+}
+
+.divider {
+    text-align: center;
+    margin: 1rem 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.social-login {
+    margin-bottom: 0.75rem;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+.social-login.google {
+    background-color: #4285F4;
+    color: white;
+}
+
+.social-login.facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.social-login.linkedin {
+    background-color: #0077B5;
+    color: white;
+}
+
+.toggle-link {
+    text-align: center;
+    margin-top: 1rem;
+    color: #666;
+}
+
+.toggle-link a {
+    color: #f8b500;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.toggle-link a:hover {
+    text-decoration: underline;
+}
